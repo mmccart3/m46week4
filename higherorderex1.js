@@ -7,7 +7,7 @@ const greet = (time, fn) => {
     } else if (time >= 1200 && time < 1800) {
         fn('Afternoon');
     } else {
-        fn('Evening');
+        fn('Night');
     }
 };
 greet(1100, whichGreeting);

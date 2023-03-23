@@ -5,4 +5,6 @@ const add = (num1) => {
         return num1 + num2;
     };
 };
-console.log(add(2)(1));
+
+module.exports={add}
+// console.log(add(2)(1));
